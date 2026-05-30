@@ -1,0 +1,19 @@
+Data extracted on 23/05/2026 20:15:36 from [ESTAT],,,,,,,,,,,
+Dataset: ,Causes of death - infant mortality by country of occurrence [hlth_cd_ainfo__custom_21578259],,,,,,,,,,
+Last updated: ,20/05/2026 23:00,,,,,,,,,,
+,,,,,,,,,,,
+Time frequency,,Annual,,,,,,,,,
+Unit of measure,,Number,,,,,,,,,
+Sex,,Total,,,,,,,,,
+Age class,,Total,,,,,,,,,
+International Statistical Classification of Diseases and Related Health Problems (ICD-10),,"COVID-19, virus identified",,,,,,,,,
+Place of residence,,All deaths reported in the country,,,,,,,,,
+,,,,,,,,,,,
+TIME,2019,,2020,,2021,,2022,,2023,,2024
+GEO (Labels),,,,,,,,,,,
+European Union - 27 countries (from 2020),0,,20,,44,,51,,24,,:
+Poland,0,,4,,8,,7,,2,,0
+Sweden,0,,1,,1,,2,,1,,:
+,,,,,,,,,,,
+Special value,,,,,,,,,,,
+:,not available,,,,,,,,,,
