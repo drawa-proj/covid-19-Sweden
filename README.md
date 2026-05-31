@@ -3,24 +3,27 @@
 Analysis of COVID-19 pandemic in Sweden.
 
 ## repository structure
-root/
+
+```text
+covid-19-sweden-analysis/
 │
 ├── data/
-│ └── compact.csv #downlad by readme link!
-│ └── expedinture.csv
-│ └── infant_mortality.csv
-│ └── testing.csv
-│ └── vaccinations_age.csv
-
+│   ├── compact.csv #download via link!
+│   ├── expenditure.csv
+│   ├── infant_mortality.csv
+│   ├── testing.csv
+│   ├── vaccinations_age.csv
+│
 ├── images/
-│ ├── *all plots and images*
+│   ├── all plots
 │
 ├── scripts/
-│ ├── *all plot-generating scripts*
+│   ├── all python scripts
 │
-├── project.html # project report
+│
 ├── README.md
-
+└── project.html #final report
+```
 
 ## get data
 Each data file (.csv) except for compact.csv is avaiable in the ./data directory. To download compact.csv [click here](https://docs.owid.io/projects/etl/api/covid/)
