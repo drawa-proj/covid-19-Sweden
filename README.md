@@ -31,4 +31,4 @@ Each data file (.csv) except for compact.csv is avaiable in the ./data directory
 
 ## run scripts
 
-Each .py scripts generates a plot in /images directory. The plots are used in the [final report](./project.html)
+Each .py scripts generates a plot in /images directory. The plots are used in the [final report](./project.html). Each prediction script prints out MAE of each used model.
