@@ -1,4 +1,3 @@
-#did lockdowns work
 import pandas as pd
 from plotly.subplots import make_subplots
 import plotly.graph_objects as go
@@ -23,9 +22,8 @@ fig.add_trace(go.Scatter(x=swe["date"], y=swe["new_cases_smoothed"],
 
 fig.add_trace(go.Scatter(x=swe["date"], y=swe["stringency_index"],
     name="Stringency Index", line=dict(color=blue)), secondary_y=True)
-
+fig.update_xaxes(title_text="Date")
 fig.update_layout(title="Cases vs Government Stringency", width=1200, height=600)
-fig.update_yaxes(title_text="New Cases (smoothed)", secondary_y=False)
-fig.update_yaxes(title_text="Stringency Index (0-100)", secondary_y=True)
-
+fig.update_yaxes(title_text="New Cases (smoothed)", secondary_y=False) 
+fig.update_yaxes(title_text="Stringency Index)", secondary_y=True)
 fig.write_html("../images/cases_vs_strinency.html")
