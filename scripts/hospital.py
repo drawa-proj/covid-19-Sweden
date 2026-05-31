@@ -1,6 +1,5 @@
 import pandas as pd
 from plotly.subplots import make_subplots
-import plotly.graph_objects as go
 import plotly.express as px
 
 
@@ -29,5 +28,6 @@ fig = px.line(
     width=1200,
     height=600,
 )
+fig.update_xaxes(title_text="Date")
 
 fig.write_html("../images/hospital.html")
